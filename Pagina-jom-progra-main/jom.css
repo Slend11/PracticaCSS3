@@ -1,0 +1,321 @@
+body{
+
+background-image: url(PS2Startup.gif);
+background-repeat: no-repeat;
+background-size:120% 100%;
+background-color: #1c1c1c;
+}
+header.logo{
+    background-color: rgb(0, 0, 0);
+    
+}
+header.menu {
+	background-image: linear-gradient(to bottom, #2e3a70, #077cb4 );
+	height: 1.5cm;}
+    
+header.menu a {
+	display: block;
+	float: left;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+	margin-right: 3.5cm;
+    margin-left: 4.7cm;
+	text-decoration: none;
+    padding: 0.4cm;
+}
+    
+
+header.menu a:hover{
+        
+		background-color: #f6c542;
+        color: #ea3333;
+        transition: 1s;
+        transform: rotateY(380deg);
+	}
+header.inicio img{
+    height: 2%;
+    width: 100%;
+
+    }
+a.game{
+      
+        text-decoration: none;
+        font-size: 4em;
+        color: transparent; 
+     }
+a.game:hover{
+        color: rgb(255, 255, 255); 
+        
+        transition: 1s;
+       
+       
+        
+    }
+
+p {
+    color:transparent;
+    transform: scale(1, 1);
+}
+
+div :hover{
+    background-color: #000000a8;
+    color: #fefefe;
+    text-decoration: double;
+    height: 304px;
+    width: 404px;
+    transition: 1s;
+    transform: rotateY(360deg);
+  
+}
+
+
+
+
+    div[class^="gow"]{
+        display: block;
+        float: left;
+        height: 304px;
+        width: 404px;
+        background-size: 396px 296px;
+        margin: 8px;
+        text-align:center;
+        
+        animation: min1 4s linear infinite;
+        
+        }
+    .cont1{
+        background-image: url(gow.jpg);;
+        background-size: 396px 296px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 304px;
+        width: 404px;
+        
+    }
+    div[class^="cont1"]:hover {
+       
+        background-color: rgba(139, 0, 0, 0.116);
+        color: rgb(145, 8, 102);
+        text-decoration-color: #179653;
+        }
+
+    
+    
+    div[class^="gta"]{
+        display: block;
+        float: left;
+        height: 304px;
+        width: 404px;
+       
+        margin: 8px;
+        text-align:center;
+        
+        animation: min2 4s linear infinite;
+        
+        }
+        div[class^="gta"]:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gta.jpg);;
+            }
+
+
+    .contGTA{
+        background-image: url(gta.jpg);
+        background-size: 396px 296px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 304px;
+        width: 404px;
+    }
+    
+    div[class^="db"]{
+        display: block;
+        float: left;
+        height: 304px;
+        width: 404px;
+       
+        
+        text-align:center;
+        margin: 8px;
+        animation: min3 4s linear infinite;
+
+       
+        }
+        div[class^="db"]:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(db.jpg);;
+            }
+
+
+    .contDB{
+        background-image: url(db.jpg);
+        background-size: 396px 296px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 304px;
+        width: 404px;
+    }
+    
+    div[class^="re"]{
+        display: block;
+        float: left;
+        height: 304px;
+        width: 404px;
+       
+        
+        text-align:center;
+        
+        animation: min4 4s linear infinite;
+
+        margin: 8px;
+        }
+        div[class^="re"]:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(re.jpg);;
+            }
+
+
+    .contRE{
+        background-image: url(re.jpg);
+        background-size: 396px 296px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 304px;
+        width: 404px;
+    }
+    
+    div[class^="ct"]{
+        display: block;
+        float: left;
+        height: 304px;
+        width: 404px;
+       
+        margin: 8px;
+        text-align:center;
+        
+        animation: min5 4s linear infinite;
+
+       
+        }
+        div[class^="ct"]:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(ct.png);;
+            }
+
+
+
+    .contCT{
+        background-image: url(ct.png);
+        background-size: 396px 296px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 304px;
+        width: 404px;
+    }
+
+
+    div[class^="fs"]{
+        display: block;
+        float: left;
+        height: 304px;
+        width: 404px;
+        margin: 8px;
+        
+        text-align:center;
+        
+        animation: min6 4s linear infinite;
+
+        
+        }
+        div[class^="fs"]:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(GH.jpeg);;
+            }
+
+
+    .contFS{
+        background-image: url(GH.jpeg);
+        background-size: 396px 296px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 304px;
+        width: 404px;
+    }
+
+   
+
+
+footer{
+        clear: both;
+        background-image: linear-gradient( to top, rgb(31, 43, 98) , rgb(26, 26, 24) );
+		color: rgb(255, 255, 255);
+		padding: 2.5%;
+		text-align: center;
+			}
+
+
+
+
+
+
+@keyframes min1 {
+    0% {background: #1B1B1B; transform: rotate3d(180deg);}
+    25%{background: #A9A9A9;}
+    75%{background: #F2F3F4;}
+    95%{background: #922929;}
+    100% {background: #660000;}
+    110% {background: #1B1B1B; transform: rotate3d(380deg);}
+}
+
+@keyframes min2 {
+    0% {background: #f0ba77;}
+    25%{background: #df76ba;}
+    75%{background: #e18387;}
+    95%{background: #724787;}
+    100% {background: #6a446f;}
+    110% {background: #f0ba77;}
+}
+
+@keyframes min3 {
+    0% {background: #8a9294;}
+    20%{background: #000000;}
+    40%{background: #e59982;}
+    70%{background: #ffd7c1;}
+    80% {background: #072083;}
+    100% {background: #f85b1a;}
+    110% {background: #8a9294;}
+}
+
+@keyframes min4 {
+    0% {background: #10131a;}
+    25%{background: #1a1f25;}
+    75%{background: #2a4968;}
+    95%{background: #7bbcdc;}
+    100% {background: #77b7d3;}
+    110% {background: #10131a;}
+}
+
+@keyframes min5 {
+    0% {background: #e2551d;}
+    25%{background: #feffff;}
+    75%{background: #179653;}
+    95%{background: #bf9e59;}
+    100% {background: #25538f;}
+    110% {background: #e2551d;}
+}
+
+@keyframes min6 {
+    0% {background: #000000;}
+    25%{background: #ffffff;}
+    75%{background: #f9ac2b;}
+    85%{background: #7d1a31;}
+    98% {background: #916936;}
+    1000% {background: #000000;}
+}
+
+
+@keyframes titulos {
+    0%{ background: #000000; }
+    100%{background: #916936; transform: rotate(360deg);}
+}
